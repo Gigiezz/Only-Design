@@ -1,0 +1,283 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Vogue';
+    src: url(../font/Vogue.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+.container {
+    background-image: url(../img/home/top_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+    /* height: 1444px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0; */
+}
+
+@media screen and (max-width:880px) {
+
+    /* .top_center_text h1 {
+        visibility: hidden;
+    } */
+    .top_center_text {
+        visibility: hidden;
+    }
+
+    .top_end_texts {
+        transform: translateY(-470px);
+    }
+
+    .top_end_texts p {
+        margin-top: 86px;
+    }
+
+    .mid_item {
+        margin-bottom: 20px;
+    }
+
+    .bottom_title h1 {
+        line-height: 80px;
+    }
+
+    .bottom_section_item_box {
+        margin-bottom: 20px;
+    }
+
+    .vector_box {
+        visibility: hidden;
+    }
+
+}
+
+/* Top Section Style */
+.top_container {
+    margin-top: 250px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_center_text h1 {
+    font-family: 'Vogue';
+    margin-bottom: 130px;
+    color: white;
+    font-weight: 400;
+    font-size: 288px;
+    line-height: 260px;
+}
+
+.top_end_texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_end_texts button {
+    margin-bottom: 49px;
+    width: 175px;
+    height: 41px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+.top_end_texts button:hover {
+    cursor: pointer;
+}
+
+.top_end_texts p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* Middle section style */
+.mid_section_container {
+    background-color: black;
+}
+
+.mid_section_title h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 43px;
+    text-align: center;
+    padding-top: 106px;
+    font-family: 'Vogue';
+}
+
+.mid_section_content {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 105px;
+}
+
+.mid_item {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+}
+
+.mid_item h3 {
+    color: white;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.mid_item p {
+    color: #A49F9F;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.button_box {
+    text-align: center;
+    margin-top: 94px;
+    padding-bottom: 100px;
+}
+
+.button_styled:hover {
+    cursor: pointer;
+}
+
+.button_styled {
+    border-radius: 5px;
+    width: 175px;
+    height: 41px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    align-items: center;
+}
+
+/* Bottom Section Style */
+.bottom_container {
+    background-color: #eae9e9;
+    padding-top: 124px;
+}
+
+.bottom_title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 43px;
+}
+
+.bottom_title h1 {
+    font-family: 'Vogue';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 43px;
+}
+
+.bottom_top_content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 134px;
+}
+
+.bottom_section_item_box {
+    border-radius: 5px;
+    background-color: white;
+    width: 405px;
+    box-shadow: 1px 5px 12px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 5px 12px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 5px 12px -1px rgba(0, 0, 0, 0.75);
+}
+
+.bottom_section_item_box h3 {
+    margin: 26px 19px 22px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.bottom_section_item_box p {
+    margin-top: 22px;
+    margin-right: 31px;
+    margin-left: 20px;
+    padding-bottom: 58px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.vector_box {
+    text-align: center;
+    margin-top: 53px;
+}
+
+.vector_box button {
+    border: 0;
+}
+
+.button_margined {
+    margin-left: 42px;
+}
+
+.vector_box button:hover {
+    cursor: pointer;
+}
+
+.bottom_sec_tittle h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 43px;
+    margin-top: 96px;
+    font-family: 'Vogue';
+}
+
+.bottom_sec_content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 134px;
+}
+
+.button_sec_styled {
+    border-radius: 5px;
+    width: 175px;
+    height: 41px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    align-items: center;
+}
+
+.button_sec_styled:hover {
+    cursor: pointer;
+}
