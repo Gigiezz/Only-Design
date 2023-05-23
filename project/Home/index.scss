@@ -1,8 +1,0 @@
-@mixin header-hover{
-    transform: translateY(-50px);
-    transition: 1.5s;
-    color: orange;    
-}
-.container_inner a:hover{
-    @include header-hover;
-}
